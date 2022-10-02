@@ -1,0 +1,16 @@
+<div class="relative h-32 w-32 ...">
+    <input type="text" class="block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" id="password"/>
+    <button class="rounded-full py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer0" onclick="post()">Submit</button>
+</div>
+<script>
+ function post(){
+    let value = document.getElementById("password").value
+    $.ajax({    
+        type: "GET",
+        url: "/passcode",   
+        data:{
+          value: value
+        }
+    });
+ }
+</script>

@@ -73,3 +73,4 @@ end
 gem "tailwindcss-rails"
 # gem 'tinymce-rails'
 gem "friendly_id"
+gem "pry"
