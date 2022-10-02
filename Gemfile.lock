@@ -89,6 +89,8 @@ GEM
       reline (>= 0.3.1)
     erubi (1.11.0)
     ffi (1.15.5)
+    friendly_id (5.4.2)
+      activerecord (>= 4.0.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -219,6 +221,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  friendly_id
   image_processing (~> 1.2)
   importmap-rails
   jbuilder

@@ -72,3 +72,4 @@ group :test do
 end
 gem "tailwindcss-rails"
 # gem 'tinymce-rails'
+gem "friendly_id"
